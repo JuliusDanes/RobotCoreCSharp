@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/detox/.dotnet/store/|arch|/|tfm|",
-      "/home/detox/.nuget/packages",
+      "/home/verocia/.dotnet/store/|arch|/|tfm|",
+      "/home/verocia/.nuget/packages",
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ]
   }

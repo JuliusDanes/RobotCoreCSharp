@@ -9,3 +9,14 @@
 /media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.AssemblyInfo.cs
 /media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.dll
 /media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.pdb
+/home/verocia/Desktop/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.deps.json
+/home/verocia/Desktop/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.runtimeconfig.json
+/home/verocia/Desktop/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.runtimeconfig.dev.json
+/home/verocia/Desktop/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.dll
+/home/verocia/Desktop/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.pdb
+/home/verocia/Desktop/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.csprojAssemblyReference.cache
+/home/verocia/Desktop/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.csproj.CoreCompileInputs.cache
+/home/verocia/Desktop/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.AssemblyInfoInputs.cache
+/home/verocia/Desktop/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.AssemblyInfo.cs
+/home/verocia/Desktop/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.dll
+/home/verocia/Desktop/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.pdb

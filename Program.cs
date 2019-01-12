@@ -23,7 +23,7 @@ namespace RobotCore {
             try {
                 Console.Write ("Use As: ");
                 useAs = Console.ReadLine ();
-                startServer (GetIPAddress (), 8686); // Start the server  
+                startServer ("192.168.1.106", 8686); // Start the server  
                 new Thread (setCommand).Start ();
             } catch (System.Exception e) { }
         }
@@ -34,6 +34,7 @@ namespace RobotCore {
             }
             set {
                 _posXYZ = value;
+		SendCallBack (_socketDict["BaseStation"], (string.Join (",", posXYZ)), "Goto");
                 Console.WriteLine ("# " + ("X:" + value[0] + " Y:" + value[1] + " ∠:" + value[2] + "°"));
             }
         }
@@ -75,8 +76,10 @@ namespace RobotCore {
                 else if (_keyPress.Key == ConsoleKey.PageDown)
                     posXYZ[2] -= 1;
 
-                if ((posXYZ != _temp) && (_socketDict.ContainsKey ("BaseStation")))
-                    SendCallBack (_socketDict["BaseStation"], (String.Join (",", posXYZ)));
+                if ((posXYZ != _temp) && (_socketDict.ContainsKey ("BaseStation"))) {
+		    posXYZ = posXYZ;
+                   // SendCallBack (_socketDict["BaseStation"], (String.Join (",", posXYZ))); 
+		}
             } while (_keyPress.Key != ConsoleKey.Escape);
         }
 
@@ -125,7 +128,7 @@ namespace RobotCore {
                         chk[2] = false; // Done
 
                     posXYZ = posXYZ;
-                    SendCallBack (_socketDict["BaseStation"], (string.Join (",", posXYZ)), "Goto");
+                   // SendCallBack (_socketDict["BaseStation"], (string.Join (",", posXYZ)), "Goto");
                     Thread.Sleep (100); // time per limit
                 }
             } catch (Exception e) { }
@@ -262,8 +265,9 @@ namespace RobotCore {
 
                 for (int i = 0; i < msgXYZ.Length; i++)
                     posXYZ[i] = Convert.ToInt32 (msgXYZ[i]);
+		posXYZ = posXYZ;
 
-                _dtMessage[0] = "X:" + posXYZ[0] + " Y:" + posXYZ[1] + " ∠:" + posXYZ[2] + "°";
+               // _dtMessage[0] = "X:" + posXYZ[0] + " Y:" + posXYZ[1] + " ∠:" + posXYZ[2] + "°";
             } else if (Regex.IsMatch (_dtMessage[0], "go[-]{0,1}[0-9]{1,4},[-]{0,1}[0-9]{1,4},[-]{0,1}[0-9]{1,4}")) {
                 var dtXYZ = _dtMessage[0].Substring (2).Split (',').Select (item => int.Parse (item)).ToArray ();
                 threadGoto ("Robot", new Thread (obj => GotoLoc (useAs, dtXYZ[0], dtXYZ[1], dtXYZ[2], 20, 20, 1)));

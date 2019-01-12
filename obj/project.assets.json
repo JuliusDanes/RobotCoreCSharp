@@ -477,7 +477,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.2.0": {
-      "sha512": "qIrVLupwT2NYTrf7KM7Nh+mJr36V5MITVRjyGOByVVCwGmQgQmI/6bjZYQv+QdExi4Cm87eCKJX9FdT6nc00Xg==",
+      "sha512": "OK/H8p9Ig6mLMITjXJ4VOewrJg/TU+dAPHE4BdMWMv+8COzBehf7XF1+DofKkmqdHpO2cJoS5Sc9PEZ6PKCbsg==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.2.0",
       "files": [
@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "/home/detox/.nuget/packages/": {},
+    "/home/verocia/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/RobotCore.csproj",
+      "projectUniqueName": "/home/verocia/Desktop/RobotCore/RobotCore.csproj",
       "projectName": "RobotCore",
-      "projectPath": "/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/RobotCore.csproj",
-      "packagesPath": "/home/detox/.nuget/packages/",
-      "outputPath": "/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/",
+      "projectPath": "/home/verocia/Desktop/RobotCore/RobotCore.csproj",
+      "packagesPath": "/home/verocia/.nuget/packages/",
+      "outputPath": "/home/verocia/Desktop/RobotCore/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/detox/.nuget/NuGet/NuGet.Config"
+        "/home/verocia/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
