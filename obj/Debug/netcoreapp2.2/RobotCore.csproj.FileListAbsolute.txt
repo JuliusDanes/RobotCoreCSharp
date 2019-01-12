@@ -1,0 +1,11 @@
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.deps.json
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.runtimeconfig.json
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.runtimeconfig.dev.json
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.dll
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/bin/Debug/netcoreapp2.2/RobotCore.pdb
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.csprojAssemblyReference.cache
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.csproj.CoreCompileInputs.cache
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.AssemblyInfoInputs.cache
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.AssemblyInfo.cs
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.dll
+/media/detox/Drive/KRSBI/Verocia-Project/RobotCore/obj/Debug/netcoreapp2.2/RobotCore.pdb
